@@ -1,0 +1,457 @@
+*	{margin:0;
+    padding:0;}
+
+html	{font-size: 62.5%;}
+
+heade	{background-color: green;
+    	display:flex;
+		justify-content: space-between;
+		align-items: center;}
+
+body	{color: #333;
+		font-family: 'Dosis', sans-serif;}
+
+nav	{margin-right: 5rem;}
+
+nav div ul li	{list-style-type:none;
+    			display:inline-block;}
+
+nav div ul li a	{text-decoration:none;
+   				color:white;
+				font-size:2rem;
+    			margin-left: 1rem}
+
+.banniere	{background-image: url(../img/banniere.jpg);
+    		min-height:59rem;
+    		background-repeat:no-repeat;
+    		text-align: center;
+    		display:flex;
+    		justify-content: center;
+    		align-items: center}
+
+.single	{width: 1425px;
+		margin-left: auto;
+    	margin-right: auto}
+
+.banniere div h1{
+    text-transform: uppercase;
+}
+.banniere div {
+    line-height: 4rem;
+}
+.banniere div p{
+    font-size: 20px;
+}
+.banniere div .titre{
+    color: gray;
+    font-size:4rem;
+    margin-bottom:10px;
+}
+.banniere div .titre2{
+    color: forestgreen;
+    font-size:3.5rem;
+}
+.banniere div button{
+    border-radius:30px;
+    background-color: green;
+    color: white;
+    font-size:3rem;
+    padding:1rem;
+    margin-top:1rem;
+    border:1px solid green;
+}
+.conference{
+    background-color: white;
+    min-height:50rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.conference h1 {
+    position: relative;
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding-bottom:20px;
+    text-transform:uppercase;
+}
+.conference h1:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 47%;
+    right: 47%;
+    height: .1rem;
+    background: #ddd;
+}
+.conference p{
+font-size: 24px;
+    margin-top:20px;
+}
+.conference_image{
+    background-image: url(../img/bandeau.jpg);
+    min-height:25rem;
+}
+.programme{
+    min-height:60rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: url(http://127.0.0.1:8000/wp-content/themes/my-theme/assets/img/programme.png) no-repeat 100% 100% #fffdf1;
+}
+.programme div{
+    text-align:center;
+    font-size:18px;
+}
+.programme h1 {
+    position: relative;
+    font-size: 24px;
+    text-transform:uppercase;
+    margin-bottom: 20px;
+    padding-bottom:20px;
+}
+.programme h1:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 47%;
+    right: 47%;
+    height: .1rem;
+    background: #ddd;
+    margin-top:10px;
+}
+.programme #grid{
+    display: grid;
+    grid-template-areas: "m1 m2";
+                    
+}
+.programme #grid #menu1{
+     grid-area : m1;
+}
+.programme #grid div h2{
+     color:green;
+    margin-bottom:20px;
+}
+.programme #grid div p{
+    text-align: left;
+    line-height: 40px;
+}
+.programme #grid #menu2{
+     grid-area : m2;
+}
+.programme div button{
+    border-radius:15px;
+    background-color: green;
+    color: white;
+    font-size:2rem;
+    padding:0.5rem;
+    margin-top:1rem;
+    border:1px solid green;
+}
+.orateurs{
+    background-color: white;
+    min-height:70rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left:100px;
+    padding-right: 100px;
+}
+.orateurs div h1 {
+    position: relative;
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding-bottom:20px;
+    text-transform:uppercase;
+}
+.orateurs div h1:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    right: 40%;
+    height: .1rem;
+    background: #ddd;
+    margin-top:10px;
+}
+.orateurs .p{
+    font-size: 18px;
+    margin-top:20px;
+}
+.orateurs img{
+    border-radius:50px;
+}
+.orateurs .portrait1{
+    display:flex;
+    margin-top:50px;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+}
+.orateurs div{
+    width:60%;
+}
+.orateurs .portrait2{
+    display:flex;
+    margin-top:50px;
+    width:100%;
+}
+.orateurs .portrait2 .div1{
+    margin-left:200px;
+}
+.orateurs .portrait2 .div2{
+    margin-right:200px;
+}
+.orateurs .green{
+    color:green;
+    margin-top:20px;
+    font-size:14px;
+}
+.orateurs button{
+    border-radius:20px;
+    background-color: #9acf64;
+    color: white;
+    font-size:1.5rem;
+    padding:1rem;
+    margin-top:1rem;
+    border:1px solid #9acf64;
+}
+.infos{
+    background-color: white;
+    min-height:50rem;
+    display:flex;
+}
+.infos div{
+    width:100%;
+}
+.infos div h1 {
+    position: relative;
+    margin-top:60px;
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding-bottom:20px;
+    text-align:center;
+    text-transform:uppercase;
+}
+.infos div h1:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    right: 45%;
+    height: .1rem;
+    background: #ddd;
+    margin-top:10px;
+}
+.infos div .divimg{
+    background-image: url(../img/lieu.png);
+    min-height:60rem;
+    background-repeat:no-repeat;
+}
+.infos div div .img{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:35px;
+}
+.infos div div .img2{
+    padding-top:150px;
+}
+.infos div div p{
+    margin-left:20px;
+    font-size:18px;
+}
+.infos .rectangle{
+    background-color:#9acf64;
+    width:25%;
+    color:white;
+    margin-left:155px;
+    min-height:690px;
+}
+.infos button{
+    border-radius:20px;
+    background-color: #9acf64;
+    color: white;
+    font-size:1.5rem;
+    padding:1rem;
+    margin-left:80%;
+}
+hr{
+    margin-top:30px;
+    color: white;
+    width:260px;
+    margin-left:50px;
+}
+.videos{
+     min-height:70rem;
+}
+.videos div h1 {
+    margin-top:60px;
+    position: relative;
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding-bottom:20px;
+    text-align:center;
+    text-transform:uppercase;
+}
+.videos div h1:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    right: 45%;
+    height: .1rem;
+    background: #ddd;
+    margin-top:10px;
+}
+.videos .grid{
+    display:grid;
+    grid-template-areas:
+                "v1 v2"
+    ;
+    text-align:center;
+    grid-gap:10px;
+}
+.videos .grid .video1{
+    grid-area: v1;
+}
+.videos .grid .video1{
+    grid-area: v2;
+}
+.videos .grid2 div{
+    display:flex;
+    align-items:center;
+}
+.videos .grid2 p{
+    margin-left:50px;
+    font-size:20px;
+}
+.videos .grid2{
+    display:grid;
+    grid-template-areas:
+                "v1 v2"
+                "v3 v4"
+    ;
+    grid-gap:10px;
+}
+.videos .grid2 .vide1{
+    grid-area: v1;
+
+}
+.videos .grid2 .vide2{
+    grid-area: v2;
+    
+}
+.videos .grid2 .video3{
+    grid-area: v3;
+    
+}
+.videos .grid2 .video4{
+    grid-area: v4;
+    
+}
+.actus{
+    min-height:70rem;
+    background-color:#f7f6f3;
+}
+.actus div h1 {
+    position: relative;
+    margin-top:80px;
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding-bottom:20px;
+    padding-top:50px;
+    text-align:center;
+    text-transform:uppercase;
+}
+.actus div h1:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 48%;
+    right: 48%;
+    height: .1rem;
+    background: #ddd;
+    margin-top:10px;
+}
+.actus .grid{
+    margin-top:50px;
+    display:grid;
+    grid-template-areas:
+                "r1 r2 r3 r4"          
+    ;
+    grid-gap:10px;
+    margin-right:100px;
+    margin-left:140px;
+}
+.actus .rectangle1{
+    width:250px;
+    min-height:450px;
+    background-color:white;
+    grid-area: r1;
+}
+.actus .rectangle2{
+    background-color:white;
+    grid-area: r2;
+    width:250px;
+}
+
+.actus .rectangle3{
+    background-color:white;
+    grid-area: r3;
+    width:250px;
+}
+
+.actus .rectangle4{
+    background-color:white;
+    grid-area: r4;
+    width:250px;
+}
+.actus img{
+    width:250px;
+    margin-bottom:20px;
+}
+.actus b{
+    font-size:15px;
+}
+.actus p{
+    margin-left:10px;
+    font-size:14px;
+}
+.actus .p {
+    margin-top:20px;
+    color:gray;
+}
+.actus .b{
+    border-radius:15px;
+    background-color: white;
+    color: gray;
+    border:1px solid gray;
+    font-size:1.5rem;
+    padding:0.5rem;
+    margin-top:2rem;
+    text-transform:uppercase;
+}
+.actus .p2 {
+    margin-top:20px;
+    color:gray;
+    margin-bottom:10px;
+}
+.section9{
+    min-height:50rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+footer{
+    display:flex;
+    background-color:#333333;
+    min-height:100px;
+}
+footer p{
+    margin-left:30px;
+    font-size:14px;
+    color:white;
+    margin-top:30px;
+}
